@@ -8,20 +8,20 @@
 }
 
 :root{
-    --start: #9faf20;
-    --end: #207094;
-    --open-path: #885771;
-    --closed-path: #a6819b;
-    --path: #ff6be6;
-    --wall: #001834;
+    --start: #8c2f39;
+    --end: #3e2c41;
+    --open-path: #d9b886;
+    --closed-path: #b9a89e;
+    --path: #8c2f39;
+    --wall: #3e2c41;
 }
 
 body{
     height: 100vh;
     margin: 0 ;
     padding: 0;
-    background-color: #1e1f29;
-    color: #fff;
+    background-color: #f5f1e6;
+    color: #333;
 }
 .page{
     width: 100%;
@@ -52,7 +52,7 @@ body{
     background-color: var(--closed-path);
 }
 .general-button{
-    color: #fff;
+    color: #000000;
     font-weight: inherit;
     font-size: inherit;
     padding: 0.5em 1em;
@@ -108,11 +108,11 @@ body{
     width: 0;
     height: 0;
     border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
+    border-color: #333 transparent transparent transparent;
 }
 
 .select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
+    border-color: transparent transparent #333 transparent;
     top: 30%;
 }
 

@@ -14,8 +14,8 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    background: #404257;
-    border: 2px solid var(--closed-path);
+    background: hsl(44, 43%, 93%);
+    border: 2px solid var #2e2e2e;
     overflow: hidden;
 }
 .row{
@@ -27,7 +27,7 @@
     margin-left: 37px;
 }
 .cell{
-    margin: 0 1px 0 0;
+    margin: 0 2px 0 0;
     width: 36px;
     height: 40px;
     overflow: visible;
@@ -66,7 +66,7 @@
     background-color: var(--end);
 }
 .cell.null::after{
-    background-color: transparent;
+    background-color: #e3c36a7b;
 }
 .cell.null::before{
     transform: scale(1.05);
@@ -85,7 +85,7 @@
     background-attachment: fixed;
 }
 .cell.wall::before{
-    background: linear-gradient(var(--wall) 0px, var(--open-path) 1400px);
+    background: linear-gradient(var(--wall) 10px, var(--open-path) 1400px);
     background-attachment: fixed;
 }
 .cell.animate{
